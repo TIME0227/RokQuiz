@@ -2,26 +2,81 @@
 const quizData = [
     {
       id: 1,
-      title: "Les Misérables", // 작품명
+      title: "보이스 오브 햄릿", // 작품명
       type: "가사",             // 문제 종류
-      number: "Do You Hear the People Sing?", // 뮤지컬 넘버
-      prompt: "Do you hear the people ____?", // 문제 문장 (빈칸 포함)
-      answer: "sing"           // 정답
+      number: "악몽의 서막(Insomnia)", // 뮤지컬 넘버
+      prompt: "복수의 서막 저 멀리 가려진 비밀 아무리 눈을 감아봐도 __ _____", // 문제 문장 (빈칸 포함)
+      answer: "답은 정해져있어"           // 정답
     },
     {
       id: 2,
-      title: "Wicked",
-      type: "대사",
-      prompt: "Because I knew you, I have been changed for ____.",
-      answer: "good"
+      title: "보이스 오브 햄릿", // 작품명
+      type: "가사",             // 문제 종류
+      number: "축배를 들어(Raise the Glass)", // 뮤지컬 넘버
+      prompt: "모든게 다 괜찮대 ___ __ 와인을 부어", // 문제 문장 (빈칸 포함)
+      answer: "찢겨진 마음"           // 정답
     },
     {
       id: 3,
-      title: "Hamilton",
+      title: "보이스 오브 햄릿", // 작품명
+      type: "가사",             // 문제 종류
+      number: "삶과 죽음(The Sleepless Night)", // 뮤지컬 넘버
+      prompt: "덧없는 인생의 끝에 순식간에 꺼진 __", // 문제 문장 (빈칸 포함)
+      answer: "불꽃"           // 정답
+    },
+    {
+      id: 4,
+      title: "보이스 오브 햄릿", // 작품명
+      type: "가사",             // 문제 종류
+      number: "가까이, 좀 더 가까이(Remember me)", // 뮤지컬 넘버
+      prompt: "눈을 뜨고 똑바로 봐 그날 밤 ___ __을", // 문제 문장 (빈칸 포함)
+      answer: "숨겨진 진실"           // 정답
+    },
+    {
+      id: 5,
+      title: "보이스 오브 햄릿", // 작품명
+      type: "가사",             // 문제 종류
+      number: "그날들은 우리의 것(The Days of Ours)", // 뮤지컬 넘버
+      prompt: "사실 난 두려워 이 모든 순간이 ___ ____", // 문제 문장 (빈칸 포함)
+      answer: "흩어져 버릴까봐"           // 정답
+    },
+    {
+      id: 6,
+      title: "벤허",
+      type: "대사",
+      prompt: "어제.. ___를 만났어요.",
+      answer: "메셀라"
+    },
+    {
+      id: 7,
+      title: "벤허", // 작품명
+      type: "가사",             // 문제 종류
+      number: "죽음의 질주 Reprise", // 뮤지컬 넘버
+      prompt: "폭도도 유대인 우리의 형제야 나보고 ___ ______", // 문제 문장 (빈칸 포함)
+      answer: "형제를 배신하란건가"           // 정답
+    },
+    {
+      id: 8,
+      title: "벤허", // 작품명
+      type: "가사",             // 문제 종류
+      number: "반역", // 뮤지컬 넘버
+      prompt: "다 설명할게 나를 믿어줘 내가 실수로 ___을 떨어뜨렸을 뿐 반역은 당치 않아 믿어주게", // 문제 문장 (빈칸 포함)
+      answer: "기왓장"           // 정답
+    },
+    {
+      id: 9,
+      title: "벤허", // 작품명
+      type: "대사",             // 문제 종류
+      prompt: "___을 즐겁게 하는 일에 목숨을 바치고 싶지 않습니다.", // 문제 문장 (빈칸 포함)
+      answer: "로마인"           // 정답
+    },
+    {
+      id: 10,
+      title: "벤허",
       type: "가사",
-      number: "My Shot",
-      prompt: "I am not throwing away my ____.",
-      answer: "shot"
+      number: "전투",
+      prompt: "이 놈은 채우지마 사령관님 지시다 ___ 모두 한 눈 팔지 마라",
+      answer: "위치로"
     }
     // 문제는 이 형식대로 계속 추가하면 됩니다!
   ];
